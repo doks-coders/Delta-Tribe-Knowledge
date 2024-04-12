@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>{{title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-accordion-group expand="inset">
+    <ion-accordion *ngFor="let item of items" [value]="item.title">
+      <ion-item slot="header" color="light">
+        <ion-label>{{item.title}}</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{item.content}}</div>
+    </ion-accordion>
+  </ion-accordion-group>
+</ion-content>

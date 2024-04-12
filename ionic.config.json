@@ -1,0 +1,7 @@
+{
+  "name": "delta-tribe-knowledge",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
