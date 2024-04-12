@@ -18,6 +18,7 @@ export class Tab4Page implements OnInit {
 
   items: AccordItem[] = [{ title: "", content: "" }];
   title?:string;
+  image?:string;
   ngOnInit(): void {
     this.route.paramMap.subscribe({
       next: (data) => {
@@ -31,7 +32,7 @@ export class Tab4Page implements OnInit {
     this.informationService.$displayContent.subscribe({
       next: (value) => {
         if (value) {
-          
+          this.image = value.imageUrl;
           this.title = value.name;
           this.items[0] = { title: "Basic Information", content: value.basicInformation }
           this.items[1] = { title: "Language", content: value.language }

@@ -1,0 +1,32 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .image-class {
+      width: 100%; // Adjust width as needed
+      height: auto;
+    }
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .image-class {
+      width: 80%; // Adjust width as needed
+      height: auto;
+    }
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .image-class {
+      width: 60%; // Adjust width as needed
+      height: auto;
+    }
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .image-class {
+      width: 50%; // Adjust width as needed
+      height: auto;
+    }
+  }
+  

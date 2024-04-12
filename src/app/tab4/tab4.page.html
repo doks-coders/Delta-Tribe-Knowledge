@@ -6,6 +6,7 @@
 
 <ion-content [fullscreen]="true">
 
+  <img [src]="image">
   <ion-accordion-group expand="inset">
     <ion-accordion *ngFor="let item of items" [value]="item.title">
       <ion-item slot="header" color="light">
