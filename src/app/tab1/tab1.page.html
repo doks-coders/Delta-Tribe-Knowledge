@@ -14,7 +14,7 @@
       <ion-col *ngFor="let tribe of availableTribes; let i = index" (click)="selectTribe(i)" size="5">
 
         <ion-card style="display: flex; align-items: center;flex-direction: column; padding: 10px;" >
-          <img alt="Silhouette of mountains" style="object-fit: cover;" [src]="tribe.imageUrl" />
+          <img  height="100px" style="object-fit: cover;" [src]="tribe.imageUrl" />
           <ion-card-header>
             <ion-card-title>{{tribe.name}}</ion-card-title>
           </ion-card-header>
