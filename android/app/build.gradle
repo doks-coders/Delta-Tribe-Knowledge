@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "delta-tribe-knowledge"
+    namespace "delta.tribe.knowledge"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "delta-tribe-knowledge"
+        applicationId "delta.tribe.knowledge"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

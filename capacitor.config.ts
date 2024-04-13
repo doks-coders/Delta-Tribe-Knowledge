@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'delta-tribes-knowledge',
-  appName: 'delta-tribe-knowledge',
+  appName: 'delta.tribe.knowledge',
   webDir: 'www',
   server: {
     androidScheme: 'https'
