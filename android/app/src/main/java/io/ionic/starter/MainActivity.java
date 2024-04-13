@@ -1,4 +1,4 @@
-package delta-tribe-knowledge;
+package delta.tribe.knowledge;
 
 import com.getcapacitor.BridgeActivity;
 
